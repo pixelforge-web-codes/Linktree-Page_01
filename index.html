@@ -20,9 +20,10 @@
     --muted:#8b8fa3;
   }
   *{ margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
-  html,body{ height:100%; }
+  html,body{ min-height:100%; }
   body{
     min-height:100vh;
+    min-height:100dvh;
     background:
       radial-gradient(circle at 18% 15%, rgba(201,139,134,0.10), transparent 45%),
       radial-gradient(circle at 82% 85%, rgba(205,168,106,0.10), transparent 45%),
@@ -159,7 +160,7 @@
 </style>
 </head>
 <body>
-<br><br><br><br><br>
+
 <canvas id="sparkle-canvas"></canvas>
 <div class="ambient-glow glow-1"></div>
 <div class="ambient-glow glow-2"></div>
